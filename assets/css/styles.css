@@ -1,51 +1,133 @@
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 100%
-}
+/* navigation */
 
 body {
-    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    background: #fff;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 
 }
 
 
+/* font styles  */
 
-p {
-    line-height: 20px;
-    margin-bottom: 20px;
+strong {
+    font-weight: bold;
 }
 
-<style > p {
-    max-width: 400px;
+p {
+    font-size: 13px;
+    color: #005776;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    padding: 0 10px;
+    padding-bottom: 20px;
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #005776;
+    text-align: center;
+}
+
+hr {
+    size: 1px;
+    width: 500px;
+    border-color: #005776;
+
+
+    ol {
+        color: aqua
+    }
+
+
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    background-color: #005776;
+    overflow: auto;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none
+}
+
+li {
+    float: right;
+
+}
+
+.logo img {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 80px;
+}
+
+nav a {
+
+    width: 100px;
+    display: block;
+    padding: 30px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: white;
     text-align: center
 }
 
-introduction {
-    margin-top: 20px;
+nav a:hover {
+
+    background: #ec8a00;
+    transition: 0.5s;
+    text-transform: uppercase
 }
 
-</style > h1 {
-    font: normal 15px "Helvetica Neue";
-    font-weight: bold;
-    color: black;
-    font-size: 45px;
-    margin-bottom: 20px;
+
+.hero-image img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
-/* Text within the hero image */
-h2 {
-    font-weight: 300;
+
+
+
+/*header properties */
+
+h1 {
+    font-weight: 150;
     color: #005776;
-    text-shadow: 2px 4px grey;
     shape-margin: 20px;
     font-size: 55px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
+
+}
+
+
+h2 {
+    font-weight: 300;
+    color: #ec8a00;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -64,6 +146,7 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 h5 {
@@ -73,171 +156,46 @@ h5 {
     text-transform: uppercase;
 }
 
+
+
+
 a {
     text-decoration: none;
-    color: #005776;
-}
-
-a:hover {
-    color: #ec8a00;
-}
-
-strong {
-    font-weight: bold;
-}
-
-/* Small font under Robin Boyd profile and Heritage listed house */
-small {
-    font-size: 13px;
-    color: #005776;
-
-}
-
-
-.clear {
-    clear: both;
-}
-
-.wrapper {
-    margin: center;
-    padding: 0 10px;
-
-}
-
-header {
-    height: 120px;
-    color: #005776;
-}
-
-header h1 {
-    float: center;
-    margin-top: 32px;
-}
-
-header h1 .color {
-    color: #fff;
-    margin-top: auto;
-
-}
-
-
-header nav {
-    float: right;
-    background-color: white;
-}
-
-header nav ul li {
-
-    display: inline-flex;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-header nav ul li a {
-    color: #005776;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    margin-right: 20px;
+    text-decoration-skip: ink;
 }
 
 
 
-#hero-image {
-    height: 370px;
-    padding-top: 1px;
-    background: white url('../images/hero.jpg') no-repeat center;
-    width: auto;
-}
-
-#hero-image h2 {
-    margin: 180px 0 40px 0;
-}
-
-.image {
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.button-1 {
-    display: block;
-    text-align: center;
-    background: #005776;
-    border-radius: 3px;
-    color: #fff;
-    width: 180px;
-    height: 50px;
-    font-size: 20px;
-    line-height: 50px;
-    margin: 0 auto;
-}
-
-.button-1:hover {
-    background-color: #ec8a00;
-    color: #fff;
-}
 
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-#content {
-    padding: 60px 0;
-    text-align: center;
-}
-
-#content article {
-    width: 460px;
-    height: 270px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-    background-color: #f5f5f5;
-}
-
-#content article:first-child {
-    margin-right: 20px;
-}
-
-#content article .overlay {
-    background: rgba(255, 255, 255, .95);
-    height: 230px;
-    width: 190px;
-    padding: 20px;
-}
-
-article h4 {
-    border-bottom: 1px solid #005776;
-    padding-bottom: 20px;
-}
+/* "more" links */
 
 .more-link {
     border: 1px solid #005776;
     color: #005776;
     padding: 6px 20px;
     border-radius: 3px;
+
 }
 
 .more-link:hover {
     background-color: #005776;
     color: #fff;
+
 }
+
+
+
+
+
+
+
 
 #donate {
     padding: 60px 0;
     text-align: center;
+    padding-top: 30px;
 }
 
 #donate h3 {
@@ -268,9 +226,131 @@ article h4 {
 
 
 
+
+
+
+
+
+
+
+/* Image slider */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+img {
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+.slider-container {
+    height: 250px;
+    width: 50%;
+    position: sticky;
+    margin: 0 auto;
+    padding: 0 10px;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    border-right: 600px;
+    border-left: 600px;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+
+    &:hover {
+        background: red;
+    }
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+
+}
+
+/* manning house */
+
+.slide-1 {
+    background-image: url('../images/manningclarkehouse/slider1.jpg');
+}
+
+.slide-2 {
+    background-image: url('../images/manningclarkehouse/slider2.jpg');
+}
+
+.slide-3 {
+    background-image: url('../images/manningclarkehouse/slider3.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     padding: 60px 0;
-    background-color: #005776;
+    background-color: cadetblue
 }
 
 #footer-info {
