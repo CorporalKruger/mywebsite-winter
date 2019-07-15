@@ -40,9 +40,7 @@ hr {
     border-color: #005776;
 
 
-    ol {
-        color: aqua
-    }
+
 
 
 }
@@ -150,10 +148,18 @@ h4 {
 }
 
 h5 {
+
+
+    font-weight: 40;
+    color: #ec8a00;
+    shape-margin: 20px;
     font-size: 15px;
-    color: #005776;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+
+
+
+
 }
 
 
@@ -225,14 +231,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
 /* Image slider */
 html,
 body {
@@ -246,6 +244,8 @@ body {
 img {
     max-width: 1000px;
     max-height: 500px;
+    padding-bottom: 8px;
+    position: center
 }
 
 .slider-container {
@@ -274,7 +274,7 @@ img {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background: #fff;
+    background: #ec8a00;
     border-radius: 50px;
     margin: 0 .2em 1em;
 
@@ -299,7 +299,7 @@ img {
 [id^="slide"]:checked + .slide {
     left: 0;
     z-index: 100;
-    transition: left .65s ease-out;
+    transition: left .50s ease-out;
 
 }
 
@@ -317,35 +317,21 @@ img {
     background-image: url('../images/manningclarkehouse/slider3.jpg');
 }
 
+.column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 50%;
+    padding: 1px;
+    padding-bottom: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 footer {
