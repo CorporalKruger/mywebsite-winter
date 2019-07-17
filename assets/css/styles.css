@@ -5,7 +5,6 @@ body {
     padding: 0;
     background: #fff;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-
 }
 
 
@@ -15,18 +14,17 @@ strong {
     font-weight: bold;
 }
 
+/* paragragraphs */
+
 p {
     font-size: 13px;
     color: #005776;
     text-align: center;
     margin: auto;
-    width: 600px;
+    width: 500px;
     padding: 0 10px;
     padding-bottom: 20px;
-
-
 }
-
 
 a {
     text-decoration: none;
@@ -34,15 +32,11 @@ a {
     text-align: center;
 }
 
+
 hr {
     size: 1px;
     width: 500px;
     border-color: #005776;
-
-
-
-
-
 }
 
 /* Navigation */
@@ -61,15 +55,17 @@ ul {
 
 li {
     float: right;
-
 }
+
+
+/* Logo preferences */
 
 .logo img {
 
     position: absolute;
     margin-top: 20px;
     margin-left: 30px;
-    width: 80px;
+    width: 120px;
 }
 
 nav a {
@@ -99,7 +95,6 @@ nav a:hover {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
-
 }
 
 
@@ -115,7 +110,6 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
-
 }
 
 
@@ -135,7 +129,6 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
-
 }
 
 h4 {
@@ -156,22 +149,13 @@ h5 {
     font-size: 15px;
     font-style: italic;
     text-align: center;
-
-
-
-
 }
-
-
 
 
 a {
     text-decoration: none;
     text-decoration-skip: ink;
 }
-
-
-
 
 
 
@@ -182,21 +166,14 @@ a {
     color: #005776;
     padding: 6px 20px;
     border-radius: 3px;
-
 }
+
+/* Hovering Preferences */
 
 .more-link:hover {
     background-color: #005776;
     color: #fff;
-
 }
-
-
-
-
-
-
-
 
 #donate {
     padding: 60px 0;
@@ -241,12 +218,18 @@ body {
     font-family: "Helvetica", sans-serif;
 }
 
+/* Standard Images  */
+
 img {
     max-width: 1000px;
     max-height: 500px;
     padding-bottom: 8px;
     position: center
 }
+
+
+/* Slider properties */
+
 
 .slider-container {
     height: 250px;
@@ -300,7 +283,6 @@ img {
     left: 0;
     z-index: 100;
     transition: left .50s ease-out;
-
 }
 
 /* manning house */
@@ -332,6 +314,8 @@ img {
     clear: both;
     display: table;
 }
+
+/* Footer properties */
 
 
 footer {
