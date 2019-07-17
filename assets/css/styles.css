@@ -142,13 +142,16 @@ h4 {
 
 h5 {
 
-
-    font-weight: 40;
+    font-weight: 50px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
     color: #ec8a00;
     shape-margin: 20px;
     font-size: 15px;
     font-style: italic;
-    text-align: center;
+    padding-bottom: 20px;
+
 }
 
 
